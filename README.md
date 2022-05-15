@@ -63,10 +63,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 "# appmockupediitest" 
 =========================================================================== Setup and Configure Installation
 
-composer install
-create db in local
-cp .env.example .env
-setup .env file config to database
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
+- composer install
+- create db in local
+- cp .env.example .env
+- setup .env file config to database
+- php artisan key:generate
+- php artisan migrate
+- php artisan db:seed
